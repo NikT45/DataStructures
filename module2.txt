@@ -1,0 +1,93 @@
+
+Sep 3rd
+C++ Review
+
+
+#include <iostream> 
+
+
+Insertion operator << 
+takes two args
+
+
+
+
+Extraction operator >> 
+
+
+#include <fstream>
+file stream 
+
+ifstream and ofstream
+
+
+
+
+
+
+
+
+
+DATA DESIGN AND IMPLEMENTATION
+
+Data: Representation of information in a mnner suitable for communication or analysis by humans or machines 
+
+ADT 
+A data type whos (logical) properties are specified indepently of any particular implementation 
+
+
+Basic ADT Operations 
+
+Constructor - creates a new instance (object) of an ADT.
+
+Transformer - changes state of one or more of the data values of an instance. 
+
+Observer - allows use to observe the state of one or more of the data values without changing them. 
+
+Iterator - allows us to process all the components in a data structure sequentially. 
+
+
+
+Composite data types 
+
+Structures and Unstructured 
+
+Structured - arrays 
+
+Unstructured - structs and classes
+
+
+
+Arrays 
+-  A one dimensional array is a structured composite type made up of a finite, fixed size collection of homogeneous (all of same data type) elements: 
+- Contiguous collection of elements
+
+In CPP 
+arrays are always passed by reference - the array var is literally the address of the first obj
+use const to protect the array from modification 
+
+
+
+member selection operator (.)
+
+
+
+Inheritance
+new class = derived class
+original existing class is the base class
+
+
+
+try catch and throw 
+
+the throw is inside of the try block 
+
+
+Enum Variable 
+
+Enum is a user defined data ype where we specify a set of values for a variable and the variable can only take on out of a small set of possible values. We use enum keyword to define a Enumeration.
+
+
+
+
+

@@ -1,0 +1,31 @@
+
+
+
+List Def 
+
+Unsorted List: A list in which data items are placed in no particular order 
+
+Sorted List: A list that is sorted by the keys of the list items; there is a semantic relationship among the keys  of the items in the list 
+
+Key: The attributes used to determine the logical order of the list
+
+Unsorted list: Operations: 
+Constructor: may make empty list or take some initial elements
+Transformers: PutItem, DeleteItem, MakeEmpty
+Observers: IsFull, GetLength 
+Iterators: ResetList, GetNextItem
+
+Generic Data type 
+A type for which the operations are defined bu the types of the items being manipulated are not defined
+
+Our unsorted list adt simulates this by using a user-defined class called itemType that defines the member functions we need
+
+Implementation level 
+
+Array-based: Elments are stored sequentially in a contiguous chunk of memory 
+
+Linked list-based: Elements are store in seperate nodes, connected by pointers
+
+Using an array-based implementation for now
+
+
