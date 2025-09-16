@@ -1,0 +1,40 @@
+
+
+
+A pointer variable contains the memory address of another variable 
+
+Pointers are declared using an asterisk: 
+int* intPointer;
+
+
+
+myMoney is a pointer - releasing the memory 
+
+delete myMoney;
+
+
+node& location = new node; 
+location-> info = 7; 
+location->next = listdata;
+listdata = location;
+
+
+
+listData->next = location; 
+location->next = NULL;
+
+
+
+try {
+xxxxxxxxxxxxx
+} catch (std::bad_alloc exception){
+
+}
+
+MakeEmpty must deallocate each node individually in order 
+
+ 
+ delete ListData; 
+ node* temp = listData; 
+ listdata = listdata-> next;
+ delete temp;

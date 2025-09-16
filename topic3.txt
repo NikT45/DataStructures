@@ -29,3 +29,34 @@ Linked list-based: Elements are store in seperate nodes, connected by pointers
 Using an array-based implementation for now
 
 
+
+
+length =/ size 
+
+length is how many elements are inside
+size is the capacity 
+
+
+
+Pointers
+
+int* intPointer;
+int alpha = 10;
+intPointer = &alpha;
+
+
+*intPointer = 25; //alpha is now 25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
