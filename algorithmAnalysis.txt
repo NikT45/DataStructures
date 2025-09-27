@@ -1,0 +1,13 @@
+
+
+
+Comparsion of Algorithms 
+
+Comparing execution time 
+Compare number of instructions
+
+The theoretical study of design and analysis of computer algorithms 
+alorithm basic goals - correct and terminates
+
+
+

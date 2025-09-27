@@ -38,3 +38,11 @@ MakeEmpty must deallocate each node individually in order
  node* temp = listData; 
  listdata = listdata-> next;
  delete temp;
+
+
+
+
+ one temp pointer isn't enough when deleting an item from a unsorted linkedlist
+
+
+ 
